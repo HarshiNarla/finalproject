@@ -1,0 +1,65 @@
+#about-us {
+    background: #c47968;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  #about-us h2 {
+    margin-bottom: 20px;
+  }
+  
+  #about-us p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-family: cursive;
+  }
+  
+  .team {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(
+        rgba(24, 23, 29, 0.65),
+        rgba(163, 131, 113, 0.65)
+      ),
+      url("https://t4.ftcdn.net/jpg/09/74/46/89/360_F_974468928_cQLB2S0463YnLiQohSxiRyHwlHdveTw1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .team-member {
+    text-align: center;
+    margin: 20px;
+    max-width: 180px;
+  }
+  
+  .team-member img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 2px solid #762614;
+  }
+  
+  .team-member h3 {
+    color: #fff;
+    margin: 10px 0 5px 0;
+    font-family: cursive;
+  }
+  
+  .team-member p {
+    color: #fff;
+    margin: 0;
+    font-family: cursive;
+  }
+  
